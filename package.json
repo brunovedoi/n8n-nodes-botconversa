@@ -4,7 +4,7 @@
 "description": "n8n node for BotConversa API",
 "main": "dist/index.js",
 "scripts": {
-"build": "n8n-node-dev build --dir=.",
+"build": "n8n-node-dev build --source nodes",
 "dev": "n8n-node-dev dev",
 "lint": "eslint . --ext .ts"
 },
