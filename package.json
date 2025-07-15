@@ -1,0 +1,39 @@
+{
+  "name": "n8n-nodes-botconversa",
+  "version": "1.0.0",
+  "description": "n8n node for BotConversa API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "n8n-node-dev build",
+    "dev": "n8n-node-dev dev",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "n8n-community-node-package"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/BotConversaApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/BotConversa.node.js"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "n8n-node-dev": "^1.0.0",
+    "typescript": "^5.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0"
+  },
+  "dependencies": {
+    "n8n-workflow": "^1.0.0",
+    "luxon": "^3.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
