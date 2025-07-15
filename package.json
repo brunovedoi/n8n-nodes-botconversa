@@ -4,9 +4,10 @@
   "description": "n8n node for BotConversa API",
   "main": "dist/index.js",
   "scripts": {
-    "build": "n8n-node-dev build --dir=. --dest=dist",
-    "dev": "n8n-node-dev dev",
-    "lint": "eslint . --ext .ts"
+  "build": "n8n-node-dev build --dir=.",
+  "dev": "n8n-node-dev dev",
+  "lint": "eslint . --ext .ts"
+}
   },
   "keywords": [
     "n8n-community-node-package"
